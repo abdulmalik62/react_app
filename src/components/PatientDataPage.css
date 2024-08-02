@@ -1,0 +1,58 @@
+.table-container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .patient-data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .patient-data-table th,
+  .patient-data-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .patient-data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .action-btn {
+    border:none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5 px;
+  }
+  
+  .action-btn.active{
+    color: green;
+  }
+
+  .action-btn:not(.active) {
+    display: none;
+  }
+  
+  .patient-data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .patient-data-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
